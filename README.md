@@ -10,8 +10,19 @@ A Dart Package to find prayers/ramazan timings for your exact location.
 ## LICENSE
 GPL-3
 
-## Usage
+## Speical thanks
+Special thanks and credit goes to http://praytimes.org/
 
+## Installations
+```yaml
+dependencies:
+  prayer_time: ^1.0.0
+```
+Now import package.
+```dart
+import 'package:prayer_time/prayer_time.dart';
+```
+## Usage
 A simple usage example:
 
   
