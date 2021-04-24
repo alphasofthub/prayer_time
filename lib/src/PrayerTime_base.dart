@@ -295,7 +295,7 @@ class PrayTime
         time = this.fixhour(time + 0.5/ 60);  // add 0.5 minutes to round
         var hours = time.floor();
         var minutes = ((time - hours) * 60).floor();
-        var suffix = hours >= 12 ? ' pm' : ' am';
+        var suffix = hours >= 12 ? ' PM' : ' AM';
         hours = ((hours + 12 - 1) % 12 + 1);
         return (hours.toString()) + ':'+ this.twoDigitsFormat(minutes).toString() + suffix;
     }
