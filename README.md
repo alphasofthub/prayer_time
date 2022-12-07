@@ -1,6 +1,6 @@
 A library for Dart developers.
 
-A Dart Package to find prayers/ramazan timings for your exact location.
+A Dart Package to find prayers/ramadan timings for your exact location.
 
 **This is the rewrite version of PHP code provided by [praytimes.org](http://praytimes.org/)**
 ## Features
