@@ -11,7 +11,7 @@
 * Extracted smaller, well-named methods for improved readability and maintainability.
 * Added type annotations for parameters and return values for clarity.
 * Divided the code into multiple files for better organization:
-    * `prayer_time.dart`
+    * `PrayerTime.dart`
     * `constants.dart`
     * `utils.dart`
 * Change the name of the package from `PrayerTime` to `prayer_time` to follow Dart's package naming conventions.

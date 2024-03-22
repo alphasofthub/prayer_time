@@ -32,8 +32,8 @@ dependencies:
 ```
 Now import package.
 ```dart
-import 'package:PrayerTime/PrayerTime.dart';
-import 'package:PrayerTime/src/constants.dart';
+import 'package:prayer_time/PrayerTime.dart';
+import 'package:prayer_time/src/constants.dart';
 ```
 ## Usage
 A simple usage example:
