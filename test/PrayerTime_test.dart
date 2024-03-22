@@ -1,6 +1,5 @@
-import 'package:prayer_time/src/constants.dart';
 import 'package:test/test.dart';
-import 'package:prayer_time/PrayerTime.dart';
+import 'package:prayer_time/prayer_time.dart';
 
 void main() {
   test('getPrayerTimes returns expected values for Karachi method', () {

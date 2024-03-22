@@ -32,8 +32,7 @@ dependencies:
 ```
 Now import package.
 ```dart
-import 'package:prayer_time/PrayerTime.dart';
-import 'package:prayer_time/src/constants.dart';
+import 'package:prayer_time/prayer_time.dart';
 ```
 ## Usage
 A simple usage example:
@@ -41,8 +40,7 @@ A simple usage example:
 
 ```dart
 
-import 'package:PrayerTime/PrayerTime.dart';
-import 'package:PrayerTime/src/constants.dart';
+import 'package:prayer_time/prayer_time.dart';
 
 void main() {
   /*
