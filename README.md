@@ -76,7 +76,7 @@ You're welcome to contribute to this project.
 You should follow contribution guideline [Contribution guideline](https://github.com/lablnet/prayer_time/blob/main/CONTRIBUTING.md)
 
 ## License  
-GPL-3  
+MIT
   
 ## Support  
 If you like this project; Donate coffee?    
@@ -85,10 +85,8 @@ here is the bitcoin address.
   
    ```37x6PA4qtPu2fQnYdW5U7jztYhbchASpBV```    
  Thank, you so much.  
-  
-## Disclaimer  
-**I do not accept responsibility for any illegal usage**
- 
+
+
 ### Issue
 
 https://github.com/lablnet/prayer_time/issues
