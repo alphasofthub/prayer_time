@@ -288,7 +288,7 @@ class PrayTime
         return this.twoDigitsFormat(time.floor()).toString() + ':' + this.twoDigitsFormat(minutes).toString();
     }
 
-    floatToTime12(time, {suffix: true})
+    floatToTime12(time, {suffix = true})
     {
         if (time.isNaN)
             return this.InvalidTime;
