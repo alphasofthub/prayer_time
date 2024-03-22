@@ -1,6 +1,6 @@
 name: PrayerTime
 description: A Dart Pacakge to get prayer times of different loctions based on geo and timezone.
-version: 1.0.0
+version: 2.0.0
 homepage: https://lablnet.github.io/
 
 environment:
