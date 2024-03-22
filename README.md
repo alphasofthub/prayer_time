@@ -28,11 +28,12 @@ Special thanks and credit goes to http://praytimes.org/
 ## Installations
 ```yaml
 dependencies:
-  prayer_time: ^1.0.0
+  prayer_time: ^2.0.0
 ```
 Now import package.
 ```dart
-import 'package:prayer_time/prayer_time.dart';
+import 'package:PrayerTime/PrayerTime.dart';
+import 'package:PrayerTime/src/constants.dart';
 ```
 ## Usage
 A simple usage example:
@@ -40,31 +41,35 @@ A simple usage example:
 
 ```dart
 
-import  'package:PrayerTime/PrayerTime.dart'; 
+import 'package:PrayerTime/PrayerTime.dart';
+import 'package:PrayerTime/src/constants.dart';
 
-void  main() {
+void main() {
+  /*
+    // method
+    Jafari;    // Jafari
+    Karachi;    // University of Islamic Sciences, Karachi
+    ISNA;    // Islamic Society of North America (ISNA)
+    MWL;    // Muslim World League (MWL)
+    Makkah;    // Umm al-Qura, Makkah
+    Egypt;    // Egyptian General Authority of Survey
+    Custom;    // Custom Setting
+    Tehran;    // Institute of Geophysics, University of Tehran
+  */
+  PrayTime prayerTime = PrayTime(method:Karachi);
 
-/*
-// method
-0; // Jafari
-1; // University of Islamic Sciences, Karachi
-2; // Islamic Society of North America (ISNA)
-3; // Muslim World League (MWL)
-4; // Umm al-Qura, Makkah
-5; // Egyptian General Authority of Survey
-6; // Custom Setting
-7; // Institute of Geophysics, University of Tehran
-*/
-PrayTime prayerTime =  PrayTime(method:  1);
-// date {year, mday, mon}, latitude, longitude, timezone
-var times = prayerTime.getPrayerTimes({
-"year":  2021,
-"mday":  19,
-"mon":  4,
-}, 31.170406299999996, 72.7097161, 5);
-// [Fajr, Sunrise, Dhuhr, Asr, Sunset, Maghrib, Isha]
-print(times);
+  // date {year, mday, mon}, latitude, longitude, timezone
+  var times = prayerTime.getPrayerTimes({
+    "year": 2021,
+    "mday": 19,
+    "mon": 4,
+  }, 31.170406299999996, 72.7097161, 5);
+
+  // [Fajr, Sunrise, Dhuhr, Asr, Sunset, Maghrib, Isha]
+  print(times);
+
 }
+
 ```
 ## Contribution
 You're welcome to contribute to this project.
