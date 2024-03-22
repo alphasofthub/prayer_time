@@ -1,18 +1,19 @@
 import 'package:PrayerTime/PrayerTime.dart';
+import 'package:PrayerTime/src/constants.dart';
 
 void main() {
   /*
     // method
-    0;    // Jafari
-    1;    // University of Islamic Sciences, Karachi
-    2;    // Islamic Society of North America (ISNA)
-    3;    // Muslim World League (MWL)
-    4;    // Umm al-Qura, Makkah
-    5;    // Egyptian General Authority of Survey
-    6;    // Custom Setting
-    7;    // Institute of Geophysics, University of Tehran
+    Jafari;    // Jafari
+    Karachi;    // University of Islamic Sciences, Karachi
+    ISNA;    // Islamic Society of North America (ISNA)
+    MWL;    // Muslim World League (MWL)
+    Makkah;    // Umm al-Qura, Makkah
+    Egypt;    // Egyptian General Authority of Survey
+    Custom;    // Custom Setting
+    Tehran;    // Institute of Geophysics, University of Tehran
   */
-  PrayTime prayerTime = PrayTime(method:1);
+  PrayTime prayerTime = PrayTime(method:Karachi);
 
   // date {year, mday, mon}, latitude, longitude, timezone
   var times = prayerTime.getPrayerTimes({
