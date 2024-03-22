@@ -1,4 +1,4 @@
 library PrayerTime;
 
-export 'src/PrayerTime_base.dart';
+export 'src/prayer_time_base.dart';
 
