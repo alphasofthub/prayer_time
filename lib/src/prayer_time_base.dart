@@ -25,9 +25,9 @@ class PrayTime {
   double _JDate = 0.0;
   int _numIterations = 1;
 
-  PrayTime({int method = Karachi}) {
+  PrayTime({int method = Karachi, in juristic = Shafii}) {
     _calcMethod = method;
-    _asrJuristic = method;
+    _asrJuristic = juristic;
   }
 
   List<String> getPrayerTimes(Map<String, int> date, double latitude,
