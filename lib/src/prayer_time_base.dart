@@ -25,7 +25,7 @@ class PrayTime {
   double _JDate = 0.0;
   int _numIterations = 1;
 
-  PrayTime({int method = Karachi, in juristic = Shafii}) {
+  PrayTime({int method = Karachi, int juristic = Shafii}) {
     _calcMethod = method;
     _asrJuristic = juristic;
   }
